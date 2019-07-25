@@ -1,0 +1,36 @@
+.wrap{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container{
+    flex:1;    
+}
+
+@font-face{
+	font-family:KangXiZiDianTi;
+	src:url(../assets/font/TypeLand-com-KangXiZiDianTi-ShiYongBan-1.otf);
+}
+
+:global(.FadeIn){
+    visibility: hidden;
+}
+:global(.fadeIn){
+    :global{animation: fadeIn 2s linear 1;
+    visibility: visible;}
+}
+
+:global(.fadeInUp){
+    :global{animation: fadeInUp 1s linear 1 !important;
+        visibility: visible;}
+}
+
+:global(.fadeInLeft){
+    :global{animation: fadeInLeft 1s linear 1 !important;
+        visibility: visible;}
+}
+
+:global(.fadeInRight){
+    :global{animation: fadeInRight 1s linear 1 !important;
+    visibility: visible;}
+}

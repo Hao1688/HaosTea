@@ -1,0 +1,46 @@
+.storepagecontent{
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+}
+.store_map_content{
+    margin: 50px 0;
+    img{
+        width: 100%;
+        vertical-align: bottom;
+    }
+    .map_content{
+        h3{
+            font-size: 20px;
+            padding: 10px 0;
+        }
+        p{
+            line-height: 24px;
+            font-size: 16px;
+            padding: 6px 0;
+            font-family: Microsoft JhengHei;
+        }
+        i{
+            margin-left: 20px;
+            color: #d51134;
+        }
+        .fontcolor{
+            font-family:KangXiZiDianTi;
+            color: #c69c6d;
+        }
+    }
+}
+.store_img{
+    margin-top: 140px;
+    img{
+        width: 100%;
+        border-radius: 5px;
+        vertical-align: bottom;
+    }
+}
+@media screen and (min-width:768px){
+    .store_map_content{
+        display: flex;
+        flex-direction: row;
+    }
+}
