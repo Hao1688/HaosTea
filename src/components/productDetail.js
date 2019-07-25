@@ -41,7 +41,7 @@ class TeaDetail extends Component {
         showTeaDetail = 'oolong_tea'
         previousPageName = '烏龍茶'
    }
-   axios.get('http://www.mocky.io/v2/5d1d68bc3000008f00d71f06').then(res=>{
+   axios.get('https://www.mocky.io/v2/5d1d68bc3000008f00d71f06').then(res=>{
    res.data[showTeaDetail].filter(data=>{
        // data.type  跟  teaName 產品英文名稱
        if(data.type !== teaName){
@@ -59,7 +59,7 @@ class TeaDetail extends Component {
    })
    })
    //4項推薦商品
-    axios.get('http://www.mocky.io/v2/5d1d68bc3000008f00d71f06').then(res=>{
+    axios.get('https://www.mocky.io/v2/5d1d68bc3000008f00d71f06').then(res=>{
         
         const num=res.data[showTeaDetail].length <=4 ?  res.data[showTeaDetail].length : 4;
         let arr=[]

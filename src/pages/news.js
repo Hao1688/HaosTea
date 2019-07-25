@@ -18,7 +18,7 @@ class News extends Component {
     }
   }
   componentDidMount(){
-    axios.get('http://www.mocky.io/v2/5d08a20334000059005d98dc').then(res=>{
+    axios.get('https://www.mocky.io/v2/5d08a20334000059005d98dc').then(res=>{
       this.setState({
         data:res.data
       })

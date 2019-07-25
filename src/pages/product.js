@@ -34,7 +34,7 @@ class Product extends Component {
         pageTitle="Hao's Tea的烏龍茶在綠茶的清新草味和紅茶的微妙複雜性之間提供了完美的平衡。烏龍茶的生產是由真正的手工茶製造商進行的勞動密集型過程，其技巧決定了香氣，味道和顏色。Hao's Tea的烏龍茶以其清新的香氣而聞名，被許多人認為是一種鑑賞家的茶，提供了一種音符和細微差別的交響樂。"
         Productname ='oolong_tea'
     }
-    axios.get('http://www.mocky.io/v2/5d1d68bc3000008f00d71f06').then(res=>{
+    axios.get('https://www.mocky.io/v2/5d1d68bc3000008f00d71f06').then(res=>{
         this.setState({
             pagename:pageName,
             pagetitle:pageTitle,
