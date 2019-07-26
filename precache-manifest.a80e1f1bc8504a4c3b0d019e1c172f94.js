@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c6844861964656fd12cc2db5200cff5d",
+    "revision": "03f037b1c4e59d6e5c8d5dc20e1c453f",
     "url": "/HaosTea/index.html"
   },
   {
-    "revision": "938045bd2e90a2d5328a",
+    "revision": "d172779d2c7ce16d8864",
     "url": "/HaosTea/static/css/main.0a6860c9.chunk.css"
   },
   {
-    "revision": "e308d22c9181ccb70490",
-    "url": "/HaosTea/static/js/2.28aa4949.chunk.js"
+    "revision": "8fcfb6abc1d88cafbe8d",
+    "url": "/HaosTea/static/js/2.c7fbaf8f.chunk.js"
   },
   {
-    "revision": "938045bd2e90a2d5328a",
-    "url": "/HaosTea/static/js/main.3f5874ee.chunk.js"
+    "revision": "d172779d2c7ce16d8864",
+    "url": "/HaosTea/static/js/main.a7d1f1d0.chunk.js"
   },
   {
     "revision": "0a723f6abb48d7178b08",

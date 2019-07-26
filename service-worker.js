@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/HaosTea/precache-manifest.c14feebc642ce203653ed0156b864390.js"
+  "/HaosTea/precache-manifest.a80e1f1bc8504a4c3b0d019e1c172f94.js"
 );
 
 self.addEventListener('message', (event) => {
